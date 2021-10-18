@@ -37,17 +37,12 @@ def main():
         try:
             input_player_choice = input('(0-2)>')
             print()
-
             player_is_quiting(input_player_choice)
-
             player_choice = int(input_player_choice)
-
             if player_choice_is_valid(player_choice):
                 print("Invalid play, please choose beween 0, 1 or 2.\n")
                 continue
-
             player_play = game_choices[player_choice]
-
         except ValueError:
             print("Invalid play, please choose beween 0, 1 or 2.\n")
             continue
