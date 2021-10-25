@@ -7,7 +7,7 @@ The player is prompted for 0 as Rock, 1 as Paper or 2 as Scissor the luck agains
 
 If the input is any other the above, will be prompted again for a valid input, the player can input an empty or 'quit' to leave the game.
 
-![alt text](image.jpg)
+![GamePlay sample](https://github.com/hverton1a/rockpaperscissor_terminal/blob/main/assets/play.gif)
 
 I use a dictionary to store the 'weakness' of a play, and use a simple if to compare.
 
@@ -16,3 +16,4 @@ I use a dictionary to store the 'weakness' of a play, and use a simple if to com
 * Finaly if any above you won.
 
 Also use the simplicity of this project to set some automatic tests with unittest and pytest.
+![Test report](https://github.com/hverton1a/rockpaperscissor_terminal/blob/main/assets/tests.gif)
