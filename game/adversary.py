@@ -1,5 +1,5 @@
 import random
-from game import GAME_CHOICES
+from game.game import GAME_CHOICES
 
 
 def get_adversary_play():

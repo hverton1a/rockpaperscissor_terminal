@@ -1,7 +1,8 @@
-from adversary import *
-from game import *
-from gui import *
-from player import *
+#! python
+from game.adversary import *
+from game.game import *
+from game.gui import *
+from game.player import *
 
 
 def main():
@@ -17,11 +18,9 @@ def main():
             print_invalid_choice()
             continue
 
-        game_choices = ['Rock','Paper','Scissor']
+        player_play = get_player_play(player_choice)
 
-        player_play = get_player_play(game_choices, player_choice)
-
-        adversary_play = get_adversary_play(game_choices)
+        adversary_play = get_adversary_play()
 
         print_plays(player_play,adversary_play)
 

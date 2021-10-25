@@ -1,5 +1,5 @@
-from game import quit_game, GAME_CHOICES
-from gui import GAME_PROMPT
+from game.game import quit_game, GAME_CHOICES
+from game.gui import GAME_PROMPT
 
 
 def get_player_play(player_choice):

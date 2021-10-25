@@ -1,5 +1,5 @@
 import sys
-from gui import *
+from game.gui import *
 
 GAME_CHOICES = ['Rock','Paper','Scissor']
 
