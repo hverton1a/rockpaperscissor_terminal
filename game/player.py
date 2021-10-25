@@ -13,6 +13,7 @@ def get_player_choice():
 
     result = validate_player_choice(input_player_choice)
 
+
     if player_is_quiting(result):
         quit_game()
 
@@ -21,6 +22,7 @@ def get_player_choice():
 
 def validate_player_choice(input_player_choice):
     result = None
+
     try:
         result = int(input_player_choice)
         if  ( result < 0 or result > 2):
